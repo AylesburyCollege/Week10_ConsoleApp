@@ -11,7 +11,10 @@ namespace Week10_ConsoleApp
         static void Main(string[] args)
         {
             //Town.Check();
-            VAT.Calculate();
+            //VAT.Calculate();
+
+            Course.CalulateMarks();
+
             Console.ReadKey();
         }
     }
