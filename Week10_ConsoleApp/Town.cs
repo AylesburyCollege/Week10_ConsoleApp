@@ -10,7 +10,7 @@ namespace Week10_ConsoleApp
     /// This class prompts the user to enter their
     /// name and town, and then comments on their entries
     /// 
-    /// CO452 Unit 1: Task 1
+    /// CO452 Unit 1: Task 1.1
     /// 02/12/2018 by Derek Peacock
     /// </summary>
     class Town
