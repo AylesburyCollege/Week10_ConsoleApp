@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace Week10_ConsoleApp
 {
-    class Program
+    class Town
     {
-        static void Main(string[] args)
+        public static void Check()
         {
-            Town.Check();
-            Console.ReadKey();
+            Console.WriteLine("Enter your town >");
         }
     }
 }
