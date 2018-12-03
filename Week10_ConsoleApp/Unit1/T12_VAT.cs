@@ -13,7 +13,7 @@ namespace Week10_ConsoleApp
     /// CO452 Unit 1: Task 1.2
     /// 02/12/2018 by Derek Peacock
     /// </summary>
-    class VAT
+    class T12_VAT
     {
         private static string input;
         private static decimal price;
@@ -21,6 +21,11 @@ namespace Week10_ConsoleApp
 
         public static void Calculate()
         {
+            Console.WriteLine("--------------------------");
+            Console.WriteLine(" Derek's VAT Calculator ");
+            Console.WriteLine("--------------------------");
+            Console.WriteLine();
+
             Console.Write("Enter the price of your item > ");
             input = Console.ReadLine();
 

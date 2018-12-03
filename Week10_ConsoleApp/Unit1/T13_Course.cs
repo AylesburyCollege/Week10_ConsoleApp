@@ -13,7 +13,7 @@ namespace Week10_ConsoleApp
     /// CO452 Unit 1: Task 1.2
     /// 02/12/2018 by Derek Peacock
     /// </summary>
-    class Course
+    class T13_Course
     {
         private static int classMark, isMark, total;
         private static double average;
