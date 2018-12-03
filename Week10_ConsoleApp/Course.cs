@@ -15,15 +15,25 @@ namespace Week10_ConsoleApp
     /// </summary>
     class Course
     {
-        private static int classMark, isMark, totalMark;
+        private static int classMark, isMark, total;
         private static double average;
 
         public static void CalulateMarks()
         {
+            Console.WriteLine("--------------------------");
+            Console.WriteLine(" Derek's Marks Calculator ");
+            Console.WriteLine("--------------------------");
+            Console.WriteLine();
+
             classMark = GetMark("Enter the class mark > ");
             isMark = GetMark("Enter the IS Mark > ");
 
+            total = classMark + isMark;
+            average = total / 2;
 
+            Console.WriteLine("\nThe total of " + classMark + " and " + isMark + " is " + total);
+            Console.WriteLine("and the average mark is " + average);
+            Console.WriteLine(); 
         }
 
         private static int GetMark(string prompt)
