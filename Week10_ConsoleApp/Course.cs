@@ -25,18 +25,22 @@ namespace Week10_ConsoleApp
             Console.WriteLine("--------------------------");
             Console.WriteLine();
 
-            classMark = GetMark("Enter the class mark > ");
-            isMark = GetMark("Enter the IS Mark > ");
+            classMark = GetInt("Enter the class mark > ");
+            isMark = GetInt("Enter the IS Mark > ");
 
             total = classMark + isMark;
             average = total / 2;
 
             Console.WriteLine("\nThe total of " + classMark + " and " + isMark + " is " + total);
-            Console.WriteLine("and the average mark is " + average);
-            Console.WriteLine(); 
-        }
+            Console.WriteLine("\nThe average mark is {0:##.00}", average);
+       }
 
-        private static int GetMark(string prompt)
+        /// <summary>
+        /// This method displays a prompt for the
+        /// user to enter a integer value which is
+        /// input as a string and converted to an int
+        /// </summary>
+        private static int GetInt(string prompt)
         {
             int mark;
             string input;
