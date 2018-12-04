@@ -48,6 +48,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Unit1\T11_Town.cs" />
     <Compile Include="Unit1\T12_VAT.cs" />
+    <Compile Include="Unit1\T14_Salary.cs" />
+    <Compile Include="UserLib.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

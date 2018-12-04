@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Week10_ConsoleApp.Unit1;
 
 namespace Week10_ConsoleApp
 {
@@ -10,11 +7,13 @@ namespace Week10_ConsoleApp
     {
         static void Main(string[] args)
         {
-            T11_Town.Check();
+            //T11_Town.Check();
 
-            T12_VAT.Calculate();
+            //T12_VAT.Calculate();
 
-            //Course.CalulateMarks();
+            //T13_Course.CalulateMarks();
+
+            T14_Salary.Calculate();
 
             Console.ReadKey();
         }
