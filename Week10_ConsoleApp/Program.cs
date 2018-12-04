@@ -13,7 +13,9 @@ namespace Week10_ConsoleApp
 
             //T13_Course.CalulateMarks();
 
-            T14_Salary.Calculate();
+            //T14_Salary.Calculate();
+
+            T15_Concert.BuyTickets();
 
             Console.ReadKey();
         }

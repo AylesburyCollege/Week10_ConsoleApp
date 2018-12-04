@@ -14,7 +14,7 @@ namespace Week10_ConsoleApp
     /// </summary>
     class UserLib
     {
-        public static void  WriteTitle(string title)
+        public static void WriteTitle(string title)
         {
             Console.WriteLine("--------------------------");
             Console.WriteLine(" Derek's " + title);
@@ -32,6 +32,7 @@ namespace Week10_ConsoleApp
             int mark;
             string input;
 
+            Console.WriteLine();
             Console.Write(prompt);
             input = Console.ReadLine();
             mark = Convert.ToInt32(input);
@@ -49,11 +50,28 @@ namespace Week10_ConsoleApp
             decimal amount;
             string input;
 
+            Console.WriteLine();
             Console.Write(prompt);
             input = Console.ReadLine();
             amount = Convert.ToDecimal(input);
 
             return amount;
+        }
+
+        /// <summary>
+        /// This method displays a prompt for the
+        /// user to enter their name
+        /// </summary>
+        public static string GetString(string prompt)
+        {
+            string input;
+
+            Console.WriteLine();
+            Console.Write(prompt);
+
+            input = Console.ReadLine();
+
+            return input;
         }
     }
 }
