@@ -3,7 +3,7 @@
 namespace Week10_ConsoleApp.Unit1
 {
     /// <summary>
-    /// This class calculates the total cost of tickets
+    /// This class calculates the total cost of tickets for a concert
     /// 
     /// CO452 Unit 1: Task 1.5
     /// 04/12/2018 by Derek Peacock
@@ -36,6 +36,7 @@ namespace Week10_ConsoleApp.Unit1
 
             Console.SetCursorPosition(0, 8);
             Console.Write("No of Tickets:" + numberofTickets);
+
             Console.SetCursorPosition(30, 8);
             Console.Write("Cost Per Ticket:" + ticketCost);
 
@@ -43,7 +44,6 @@ namespace Week10_ConsoleApp.Unit1
 
             Console.SetCursorPosition(20, 12);
             Console.Write("Total Cost:" + totalCost.ToString("c"));
-            
         }
     }
 }
