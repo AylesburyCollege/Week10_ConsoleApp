@@ -50,6 +50,9 @@
     <Compile Include="Unit1\T12_VAT.cs" />
     <Compile Include="Unit1\T14_Salary.cs" />
     <Compile Include="Unit1\T15_Concert.cs" />
+    <Compile Include="Unit2\T31_Game.cs" />
+    <Compile Include="Unit2\T32_Display.cs" />
+    <Compile Include="Unit2\T33_Ferry.cs" />
     <Compile Include="UserLib.cs" />
   </ItemGroup>
   <ItemGroup>

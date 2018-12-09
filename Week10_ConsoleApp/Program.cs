@@ -1,5 +1,5 @@
 ﻿using System;
-using Week10_ConsoleApp.Unit1;
+using Week10_ConsoleApp.Unit2;
 
 namespace Week10_ConsoleApp
 {
@@ -15,8 +15,12 @@ namespace Week10_ConsoleApp
 
             //T14_Salary.Calculate();
 
-            T15_Concert.BuyTickets();
+            //T15_Concert.BuyTickets();
 
+            //T31_Game.BuyWeapons();
+            //T32_Display.ShowName();
+
+            T33_Ferry.Load();
             Console.ReadKey();
         }
     }

@@ -60,6 +60,24 @@ namespace Week10_ConsoleApp
 
         /// <summary>
         /// This method displays a prompt for the
+        /// user to enter a integer value which is
+        /// input as a string and converted to an int
+        /// </summary>
+        public static double GetDouble(string prompt)
+        {
+            double amount;
+            string input;
+
+            Console.WriteLine();
+            Console.Write(prompt);
+            input = Console.ReadLine();
+            amount = Convert.ToDouble(input);
+
+            return amount;
+        }
+
+        /// <summary>
+        /// This method displays a prompt for the
         /// user to enter their name
         /// </summary>
         public static string GetString(string prompt)
