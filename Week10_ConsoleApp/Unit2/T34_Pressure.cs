@@ -1,15 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Week10_ConsoleApp.Unit2
 {
     /// <summary>
     /// This class checks pressures to see if they are safe
     /// 
-    /// CO452 Unit 2: Task 3.3
+    /// CO452 Unit 2: Task 3.4
     /// 04/12/2018 by Derek Peacock
     /// </summary>
     class T34_Pressure
