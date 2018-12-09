@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Week10_ConsoleApp.Unit2
 {
@@ -24,6 +20,8 @@ namespace Week10_ConsoleApp.Unit2
             int count = 0;
             decimal moneyTaken = 0;
             bool isFull = false;
+
+            UserLib.WriteTitle("Passenger Ferry");
 
             while (!isFull)
             {

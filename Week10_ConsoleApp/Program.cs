@@ -19,8 +19,10 @@ namespace Week10_ConsoleApp
 
             //T31_Game.BuyWeapons();
             //T32_Display.ShowName();
+            //T33_Ferry.Load();
 
-            T33_Ferry.Load();
+            T34_Pressure.Check();
+
             Console.ReadKey();
         }
     }

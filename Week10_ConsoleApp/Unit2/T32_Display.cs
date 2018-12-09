@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading;
 
 namespace Week10_ConsoleApp.Unit2
@@ -27,7 +24,6 @@ namespace Week10_ConsoleApp.Unit2
 
             while (count < 10)
             {
-                count++;
                 y = y + 1;
 
                 UserLib.WriteTitle("Show Name");
@@ -38,6 +34,8 @@ namespace Week10_ConsoleApp.Unit2
 
                 Console.Clear();
                 Console.BackgroundColor = (ConsoleColor)Enum.Parse(typeof(ConsoleColor), colorNames[count]);
+
+                count++;
             }
         }
     }

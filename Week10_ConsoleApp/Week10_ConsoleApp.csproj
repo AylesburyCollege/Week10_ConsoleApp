@@ -53,6 +53,7 @@
     <Compile Include="Unit2\T31_Game.cs" />
     <Compile Include="Unit2\T32_Display.cs" />
     <Compile Include="Unit2\T33_Ferry.cs" />
+    <Compile Include="Unit2\T34_Pressure.cs" />
     <Compile Include="UserLib.cs" />
   </ItemGroup>
   <ItemGroup>
