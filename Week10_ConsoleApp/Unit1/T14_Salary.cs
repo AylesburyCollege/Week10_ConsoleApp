@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Week10_ConsoleApp.Unit1
+namespace Week10_ConsoleApp
 {
     /// <summary>
     /// This class calculates the average and final
@@ -9,7 +9,7 @@ namespace Week10_ConsoleApp.Unit1
     /// CO452 Unit 1: Task 1.4
     /// 04/12/2018 by Derek Peacock
     /// </summary>
-    class T14_Salary
+    public class T14_Salary
     {
         private static decimal weeklySalary;
         private static decimal monthlySalary;

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Week10_ConsoleApp.Unit1
+namespace Week10_ConsoleApp
 {
     /// <summary>
     /// This class calculates the total cost of tickets for a concert
@@ -8,7 +8,7 @@ namespace Week10_ConsoleApp.Unit1
     /// CO452 Unit 1: Task 1.5
     /// 04/12/2018 by Derek Peacock
     /// </summary>
-    class T15_Concert
+    public class T15_Concert
     {
         private static string group;
         private static string date;

@@ -4,9 +4,9 @@ namespace Week10_ConsoleApp.Unit3
 {
     class T41_Meals
     {
-        double dayCost, weekCost; // define all class variables (attributes)
-        double foodCost, drinkCost;
-        int daysPerWeek; // number of days attending college
+        private double dayCost, weekCost; // define all class variables (attributes)
+        private double foodCost, drinkCost;
+        private int daysPerWeek; // number of days attending college
 
         public void InputData() // method to input data from keyboard
         {
