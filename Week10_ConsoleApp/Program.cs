@@ -1,5 +1,5 @@
 ﻿using System;
-using Week10_ConsoleApp.Unit2;
+using Week10_ConsoleApp.Unit3;
 
 namespace Week10_ConsoleApp
 {
@@ -20,9 +20,14 @@ namespace Week10_ConsoleApp
             //T31_Game.BuyWeapons();
             //T32_Display.ShowName();
             //T33_Ferry.Load();
+            //T34_Pressure.Check();
 
-            T34_Pressure.Check();
+            T41_Meals myMeals = new T41_Meals(); // create a new myMeals object
 
+            myMeals.InputData(); // call object’s inputData method
+            myMeals.CalculateTotalCosts(); // call object’s calcTotalCosts method
+            myMeals.OutputCosts(); // call object’s outputCosts method
+           
             Console.ReadKey();
         }
     }

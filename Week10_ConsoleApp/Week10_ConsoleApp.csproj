@@ -54,10 +54,12 @@
     <Compile Include="Unit2\T32_Display.cs" />
     <Compile Include="Unit2\T33_Ferry.cs" />
     <Compile Include="Unit2\T34_Pressure.cs" />
+    <Compile Include="Unit3\T41_Meals.cs" />
     <Compile Include="UserLib.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
