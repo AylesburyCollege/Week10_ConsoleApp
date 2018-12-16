@@ -54,8 +54,10 @@
     <Compile Include="Unit2\T32_Display.cs" />
     <Compile Include="Unit2\T33_Ferry.cs" />
     <Compile Include="Unit2\T34_Pressure.cs" />
+    <Compile Include="Unit3\Dice.cs" />
     <Compile Include="Unit3\T41_Meals.cs" />
     <Compile Include="Unit3\T42_Game.cs" />
+    <Compile Include="Unit3\T45_Craps.cs" />
     <Compile Include="UserLib.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -11,9 +11,21 @@ namespace Week10_ConsoleApp
             //RunUnit1();
             //RunUnit2();
 
-            RunMeals();
+            //RunMeals();
+            //RunDice();
+            //Dice.Throw(1000);
 
+            T45_Craps.Play();
             Console.ReadKey();
+        }
+
+        private static void RunDice()
+        {
+            int throwNo;
+            for(throwNo = 1; throwNo <= 20; throwNo++)
+            {
+                Console.WriteLine("Throw No " + throwNo + " is " + Dice.Throw());
+            }
         }
 
         private static void RunUnit2()
