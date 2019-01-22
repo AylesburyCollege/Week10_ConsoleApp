@@ -12,8 +12,10 @@ namespace Week10_ConsoleApp.Unit3
         {
             string input; // local input variable
 
-            Console.Write("Enter the price of a meal: £");
+            string prompt = "Enter the price of a meal: £";
             input = Console.ReadLine();
+            Console.Write(prompt);
+
             foodCost = Convert.ToDouble(input);
 
             Console.Write("Enter the price of a drink: £");

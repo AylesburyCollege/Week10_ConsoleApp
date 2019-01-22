@@ -15,8 +15,12 @@ namespace Week10_ConsoleApp
             //RunDice();
             //Dice.Throw(1000);
 
-            T45_Craps.Play();
-            Console.ReadKey();
+            //T45_Craps.Play();
+            //Console.ReadKey();
+
+            UserLib.WriteTitle("Here is the title");
+            string fred = "My Title";
+            UserLib.WriteTitle(fred);
         }
 
         private static void RunDice()
